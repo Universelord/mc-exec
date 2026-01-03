@@ -1,6 +1,6 @@
 services:
   mcrun:
-    image: mc-exec:alpine-3.23.2-jdk21
+    image: ghcr.io/universelord/mc-exec:alpine-3.23.2-jdk21
     container_name: minecraft
     volumes:
       - /path/to/minecraft/server:/mc
