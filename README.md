@@ -8,4 +8,4 @@ podman run -itd -v /path-to-server-files:.mc -e MEMORY=2G -p 25565:25565 mc-exec
 ```
 The env `MEMORY` is to allocate the ammount of maximum amount of ram
 
-[[container-compose.yaml]]
+[Check the compose file](container-compose.yaml)
