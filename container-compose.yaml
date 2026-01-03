@@ -1,0 +1,13 @@
+services:
+  mcrun:
+    image: mc-exec:alpine-3.23.2-jdk21
+    container_name: minecraft
+    volumes:
+      - /path/to/minecraft/server:/mc
+    environment:
+      - MEMORY=4G
+    ports:
+      - 25565:25565
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
