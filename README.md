@@ -9,3 +9,10 @@ podman run -itd -v /path-to-server-files:.mc -e MEMORY=2G -p 25565:25565 mc-exec
 The env `MEMORY` is to allocate the ammount of maximum amount of ram
 
 [Check the compose file](container-compose.yaml)
+<br>
+---
+# Build
+```
+git clone https://github.com/Universelord/mc-exec.git
+podman build -t mc-exec:test-build .
+```

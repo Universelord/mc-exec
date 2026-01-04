@@ -12,4 +12,3 @@ WORKDIR /mc
 
 #CMD ["java", "-${MEMORY}", "-Xms1G -jar server.jar nogui"]
 CMD ["sh", "-c", "java -Xms1G -Xmx${MEMORY} -jar server.jar nogui"]
-
